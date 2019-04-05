@@ -1,0 +1,21 @@
+{
+  "name": "SlackChat",
+  "version": "1.0.0",
+  "description": "Yet another slack proxy for chatbot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kenchaso/SlackChat.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "restart": "forever restart index.js",
+    "start": "forever start index.js",
+    "stop": "forever stop index.js",
+    "console": "node console.js"
+  },
+  "author": "Kent_Omichi",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.6.14"
+  }
+}

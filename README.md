@@ -1,2 +1,13 @@
 # SlackChat
-Node.js based simple slack chat
+※Node.js Based ChatBot
+
+## ■How to use
+```
+cd ~/SlackChat
+//Start
+npm start
+//Stop
+npm stop
+//restart
+npm restart
+```
